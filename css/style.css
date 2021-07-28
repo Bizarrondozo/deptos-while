@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(175, 239, 240);
+    background: linear-gradient(90deg, rgba(175, 239, 240, 1) 0%, rgba(215, 252, 203, 1) 100%);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+    background: rgb(175, 239, 240);
+    background: linear-gradient(90deg, rgba(175, 239, 240, 1) 0%, rgba(215, 252, 203, 1) 100%);
+    height: 70px;
+}
+
+.menu h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.menu {
+    color: #39a8aa;
+    float: center;
+    margin: 0px;
+    padding: 20px 50px 20px 460px;
+}
+
+.menu a {
+    color: #39a8aa;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.banner {
+    background-image: url(../img/departamentos.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 80px;
+    padding: 150px 50px;
+}
+
+.tablaCategorias {
+    width: auto;
+    margin: auto;
+}
+
+.cat {
+    padding: 10px;
+}
+
+.titulo {
+    color: #39a8aa;
+    text-align: center;
+    padding: 50px;
+}
+
+.boton_categorias {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-size: 9px;
+    margin: 5px;
+    padding: 5px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+
+.boton_categorias:hover {
+    opacity: 0.3;
+}
+
+.boton_categorias a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    padding: 5px 5px 5px 5px;
+}
+
+footer {
+    background: rgb(175, 239, 240);
+    background: linear-gradient(90deg, rgba(175, 239, 240, 1) 0%, rgba(215, 252, 203, 1) 100%);
+    color: white;
+    text-align: center;
+    padding: 20px 100px 70px 100px;
+}
